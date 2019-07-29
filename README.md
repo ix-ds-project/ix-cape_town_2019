@@ -4,7 +4,7 @@
 The code presented in this repository represents the steps taken to clean and train data pertaining to the employment status of indivduals.
 
 ## SETUP
-Have the csv files in the directory './data/raw/'
+Have the csv files in the directory './data/raw/'. The files are not on this repo due to their large sizes.
 
 All the code is in the "class_project.R" file.
 
