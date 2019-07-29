@@ -11,14 +11,14 @@ All the code is in the "class_project.R" file.
 All the commented code just exists to document progress.
 
 ## CLEANING
-In order to use our data to create different models, we used the data from the first surve and filtered out irrelevant columns like job_start_date, job_leave_date, company_size, monthly_pay, survey_num, and province.
-We went on to imput values for the vast number of NA's in our dataset and later used the date of birth data to create a new column that computed each individual's age. 
-We cleaned and added the five other datasets to the original baseline data, creating one large dataset of the most useful information.
-Lastly, we converted the strings to numeric values.
+In order to use our data to create different models, we used the data from the first surve and filtered out irrelevant columns.
+
+We joined in all the score data given to the main dataframe.
+
+We then preprocessed the data by one-hot encoding categorical variables and imputing NA variables in columns.
 
 ## VISUALIZATION
-We created a quick visuals to see the relationship between females and males working 
-Then viewed the working status of different ages divided by gender 
+We created a quick visuals to see the relationship between females and males working, then viewed the working status of different ages divided by gender 
 
 ## MODELING
-We then weighted different varibles in the dataset and ran models to predict who would be working.
+We then weighted different varibles in the dataset and ran models to predict who would be working. After running the "ranger" method, we predicted who will be working with 71.43% accuracy.
