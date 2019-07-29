@@ -1,8 +1,6 @@
 # iX Data Science Class Project
 
-### Names:
-Alden Ferguson, Alyse Barlow, Yeon Kim
-
+#### Names: Alden Ferguson, Alyse Barlow, Yeon Kim
 The code presented in this repository represents the steps taken to clean and train data pertaining to the employment status of indivduals.
 
 ## SETUP
