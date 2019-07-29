@@ -5,7 +5,10 @@ The code presented in this repository represents the steps taken to clean and tr
 
 ## SETUP
 Have the csv files in the directory './data/raw/'
-All the code is in the class_project.R file
+
+All the code is in the "class_project.R" file.
+
+All the commented code just exists to document progress.
 
 ## CLEANING
 In order to use our data to create different models, we used the data from the first surve and filtered out irrelevant columns like job_start_date, job_leave_date, company_size, monthly_pay, survey_num, and province.
